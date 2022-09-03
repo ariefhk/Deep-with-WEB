@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengenal Tag dan elemen pada HTML</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        padding: 5px;
+      }
+      table {
+        border-spacing: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1.Mempunyai Opening dan Closing tag -->
+    <!-- Tag Judul (Heading) -->
+    <h1>Judul 1</h1>
+    <h2>Judul 2</h2>
+    <h3>Judul 3</h3>
+    <h4>Judul 4</h4>
+    <h5>Judul 5</h5>
+    <h6>Judul 6</h6>
+
+    <!-- Tag Paragraf (paragraph) -->
+    <p>Paragraf</p>
+    <pre>preformat text</pre>
+
+    <!-- Formating Text -->
+    <strong>Teks Tebal</strong>
+    <em>teks miring</em>
+    <sub>Teks subscript</sub>
+    <sup>Teks Superscript</sup>
+
+    <!-- Form -->
+    <form action="">
+      <label for="form">Test</label>
+      <input type="text" name="form" id="" />
+      <input type="button" value="" />
+      <input type="checkbox" name="" id="" />
+      <input type="date" name="" id="" />
+      <input type="email" name="" id="" />
+      <input type="radio" name="" id="" />
+      <input type="reset" value="" />
+      <input type="range" name="" id="" />
+      <input type="search" name="" id="" />
+      <input type="submit" value="" />
+      <input type="time" name="" id="" />
+    </form>
+
+    <form action="/action_page.php">
+      <input list="browsers" name="browser" />
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <!-- List -->
+      <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!-- Table -->
+      <table style="width: 100%">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+
+      <input type="submit" />
+    </form>
+    <!-- 2.Self Closing tag -->
+    <!-- Horizontal Rule -->
+    <hr />
+    <!-- break -->
+    <br />
+    <!-- Image -->
+    <img src="" alt="" />
+  </body>
+</html>
